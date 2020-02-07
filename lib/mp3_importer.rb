@@ -10,7 +10,7 @@ class MP3Importer
   
   def files
     binding.pry
-    Dir.entries(@path) do |f|
+    Dir.entries(@path).each do |f|
       Dir.glob("*.mp3")
     end
   end
