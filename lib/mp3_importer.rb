@@ -7,7 +7,7 @@ class MP3Importer
   
   def files
     Dir.entries(self.path) do |f|
-      Dr.glob(".mp3")
+      Dir.glob(".mp3")
     end
   end
   
