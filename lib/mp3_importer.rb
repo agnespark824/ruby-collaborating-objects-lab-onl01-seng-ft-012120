@@ -8,6 +8,11 @@ class MP3Importer
     @path = path
   end
   
+  #
+  #
+  #
+  #
+  
   def files
     binding.pry
     Dir.entries(@path).each do |f|
